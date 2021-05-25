@@ -1,0 +1,19 @@
+pre{
+  @apply
+  bg-pink-200
+  dark:bg-pink-900
+  text-blue-600
+  dark:text-blue-200
+  p-2
+  rounded-md
+  text-sm
+  font-thin
+  font-mono
+  transition-colors
+  duration-500
+  whitespace-pre-line;
+  i{
+    @apply
+    text-gray-400
+  }
+}
